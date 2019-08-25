@@ -1,0 +1,11 @@
+[
+  {
+    "from": "Berlin",
+    "to": "Budapest",
+    "optimal": [
+      ["BERL-sky", "BUD-sky"],
+      ["SXF-sky", "BUD-sky"],
+      ["TXL-sky", "BUD-sky"]
+    ]
+  }
+]

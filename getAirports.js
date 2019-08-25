@@ -25,9 +25,26 @@ async function getAirportIDs(query) {
 }
 
 async function getAirports(from, to) {
-  const fromResult = await getAirportIDs(from);
-  const toResult = await getAirportIDs(to);
-  return [...cartesian(fromResult, toResult)];
+  const cache = require("./cache.json");
+  const cachedRoute = cache.find(function(element) {
+    return element.from === from && element.to === to;
+  });
+  const cachedRouteBackwards = cache.find(function(element) {
+    return element.to === from && element.from === to;
+  });
+  if (cachedRoute) {
+    return cachedRoute.optimal;
+  } else if (cachedRouteBackwards) {
+    let optimal = [];
+    for (let i = 0; i < cachedRouteBackwards.optimal.length; i++) {
+      optimal = [...optimal, cachedRouteBackwards.optimal[i].reverse()];
+    }
+    return optimal;
+  } else {
+    const fromResult = await getAirportIDs(from);
+    const toResult = await getAirportIDs(to);
+    return [...cartesian(fromResult, toResult)];
+  }
 }
 
 exports.getAirports = getAirports;

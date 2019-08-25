@@ -24,9 +24,7 @@ async function getCheapestFlight(from, to) {
   });
   console.log(
     "\x1b[33m%s\x1b[0m",
-    `Cheapest flight from ${from} to ${to} is ${cheapest.from}->${
-      cheapest.to
-    } for ${cheapest.price}Ft.`
+    `Cheapest flight from ${from} to ${to} is ${cheapest.from}->${cheapest.to} for ${cheapest.price}Ft.`
   );
   return cheapest;
 }
@@ -62,4 +60,4 @@ async function priceOfRoute(route) {
 
 priceOfRoute(testRoute);
 
-//TODO: Cache optimal airports
+//TODO: Write cache
