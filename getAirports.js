@@ -35,11 +35,7 @@ async function getAirports(from, to) {
   if (cachedRoute) {
     return cachedRoute.optimal;
   } else if (cachedRouteBackwards) {
-    let optimal = [];
-    for (let i = 0; i < cachedRouteBackwards.optimal.length; i++) {
-      optimal = [...optimal, cachedRouteBackwards.optimal[i].reverse()];
-    }
-    return optimal;
+    return cachedRouteBackwards.optimal.map(e => e.slice().reverse());
   } else {
     const fromResult = await getAirportIDs(from);
     const toResult = await getAirportIDs(to);

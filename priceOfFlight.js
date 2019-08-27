@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 const sleep = require("util").promisify(setTimeout);
 
-async function getTicketPrice(from, to) {
+async function priceOfFlight(from, to) {
   const date = "2020-06-01";
   const adults = 2;
   const sessionQuery = `country=HU&currency=HUF&locale=en-US&originPlace=${from}&destinationPlace=${to}&outboundDate=${date}&adults=${adults}`;
@@ -50,4 +50,4 @@ async function getTicketPrice(from, to) {
   }
 }
 
-exports.getTicketPrice = getTicketPrice;
+exports.priceOfFlight = priceOfFlight;

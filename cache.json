@@ -7,5 +7,11 @@
       ["SXF-sky", "BUD-sky"],
       ["TXL-sky", "BUD-sky"]
     ]
+  },
+  { "from": "Prague", "to": "Budapest", "optimal": [["PRG-sky", "BUD-sky"]] },
+  {
+    "from": "Malaysia",
+    "to": "Budapest",
+    "optimal": [["KULM-sky", "BUD-sky"], ["KUL-sky", "BUD-sky"]]
   }
 ]
