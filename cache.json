@@ -1,17 +1,1 @@
-[
-  {
-    "from": "Berlin",
-    "to": "Budapest",
-    "optimal": [
-      ["BERL-sky", "BUD-sky"],
-      ["SXF-sky", "BUD-sky"],
-      ["TXL-sky", "BUD-sky"]
-    ]
-  },
-  { "from": "Prague", "to": "Budapest", "optimal": [["PRG-sky", "BUD-sky"]] },
-  {
-    "from": "Malaysia",
-    "to": "Budapest",
-    "optimal": [["KULM-sky", "BUD-sky"], ["KUL-sky", "BUD-sky"]]
-  }
-]
+[{"from":"Berlin","to":"Budapest","optimal":[["BERL-sky","BUD-sky"],["SXF-sky","BUD-sky"],["TXL-sky","BUD-sky"]]},{"from":"Prague","to":"Budapest","optimal":[["PRG-sky","BUD-sky"]]},{"from":"Malaysia","to":"Budapest","optimal":[["KULM-sky","BUD-sky"],["KUL-sky","BUD-sky"]]},{"from":"Thailand","to":"Budapest","optimal":[["BKKT-sky","BUD-sky"],["BKK-sky","BUD-sky"],["DMK-sky","BUD-sky"],["KBV-sky","BUD-sky"]]},{"from":"Rwanda","to":"Budapest","optimal":[["KGL-sky","BUD-sky"],["KME-sky","BUD-sky"]]},{"from":"Portland","to":"Thailand","optimal":[["PDX-sky","BKKT-sky"],["PDX-sky","KKC-sky"],["PDX-sky","NST-sky"]]},{"from":"Budapest","to":"Portland","optimal":[["BUD-sky","PDX-sky"],["BUD-sky","PWM-sky"]]},{"from":"Montreal","to":"Budapest","optimal":[["YMQA-sky","BUD-sky"],["YUL-sky","BUD-sky"]]}]
