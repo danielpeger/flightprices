@@ -1,4 +1,4 @@
-const { cartesian } = require("./cartesian");
+const { cartesian } = require("./utils");
 const fetch = require("node-fetch");
 
 async function getAirportIDs(query) {

@@ -1,1 +1,87 @@
-[{"from":"Berlin","to":"Budapest","optimal":[["BERL-sky","BUD-sky"],["SXF-sky","BUD-sky"],["TXL-sky","BUD-sky"]]},{"from":"Prague","to":"Budapest","optimal":[["PRG-sky","BUD-sky"]]},{"from":"Malaysia","to":"Budapest","optimal":[["KULM-sky","BUD-sky"],["KUL-sky","BUD-sky"]]},{"from":"Thailand","to":"Budapest","optimal":[["BKKT-sky","BUD-sky"],["BKK-sky","BUD-sky"],["DMK-sky","BUD-sky"],["KBV-sky","BUD-sky"]]},{"from":"Rwanda","to":"Budapest","optimal":[["KGL-sky","BUD-sky"],["KME-sky","BUD-sky"]]},{"from":"Portland","to":"Thailand","optimal":[["PDX-sky","BKKT-sky"],["PDX-sky","KKC-sky"],["PDX-sky","NST-sky"]]},{"from":"Budapest","to":"Portland","optimal":[["BUD-sky","PDX-sky"],["BUD-sky","PWM-sky"]]},{"from":"Montreal","to":"Budapest","optimal":[["YMQA-sky","BUD-sky"],["YUL-sky","BUD-sky"]]}]
+[
+  {
+    "from": "Berlin",
+    "to": "Budapest",
+    "optimal": [
+      ["BERL-sky", "BUD-sky"],
+      ["SXF-sky", "BUD-sky"],
+      ["TXL-sky", "BUD-sky"]
+    ]
+  },
+  { "from": "Prague", "to": "Budapest", "optimal": [["PRG-sky", "BUD-sky"]] },
+  {
+    "from": "Malaysia",
+    "to": "Budapest",
+    "optimal": [["KULM-sky", "BUD-sky"], ["KUL-sky", "BUD-sky"]]
+  },
+  {
+    "from": "Thailand",
+    "to": "Budapest",
+    "optimal": [
+      ["BKKT-sky", "BUD-sky"],
+      ["BKK-sky", "BUD-sky"],
+      ["DMK-sky", "BUD-sky"],
+      ["KBV-sky", "BUD-sky"]
+    ]
+  },
+  {
+    "from": "Rwanda",
+    "to": "Budapest",
+    "optimal": [["KGL-sky", "BUD-sky"], ["KME-sky", "BUD-sky"]]
+  },
+  {
+    "from": "Portland",
+    "to": "Thailand",
+    "optimal": [
+      ["PDX-sky", "BKKT-sky"],
+      ["PDX-sky", "KKC-sky"],
+      ["PDX-sky", "NST-sky"]
+    ]
+  },
+  {
+    "from": "Budapest",
+    "to": "Portland",
+    "optimal": [["BUD-sky", "PDX-sky"], ["BUD-sky", "PWM-sky"]]
+  },
+  {
+    "from": "Montreal",
+    "to": "Budapest",
+    "optimal": [["YMQA-sky", "BUD-sky"], ["YUL-sky", "BUD-sky"]]
+  },
+  {
+    "from": "Indonesia",
+    "to": "Montreal",
+    "optimal": [
+      ["JOG-sky", "YMQA-sky"],
+      ["CGKI-sky", "YMQA-sky"],
+      ["CGK-sky", "YMQA-sky"],
+      ["HLP-sky", "YMQA-sky"],
+      ["KNO-sky", "YMQA-sky"],
+      ["JOG-sky", "YUL-sky"],
+      ["CGKI-sky", "YUL-sky"],
+      ["CGK-sky", "YUL-sky"],
+      ["KNO-sky", "YUL-sky"]
+    ]
+  },
+  {
+    "from": "Indonesia",
+    "to": "Portland",
+    "optimal": [
+      ["DPS-sky", "PDX-sky"],
+      ["JOG-sky", "PDX-sky"],
+      ["CGK-sky", "PDX-sky"],
+      ["UPG-sky", "PDX-sky"],
+      ["KNO-sky", "PDX-sky"],
+      ["LOP-sky", "PDX-sky"]
+    ]
+  },
+  {
+    "from": "Indonesia",
+    "to": "Budapest",
+    "optimal": [
+      ["DPS-sky", "BUD-sky"],
+      ["CGKI-sky", "BUD-sky"],
+      ["CGK-sky", "BUD-sky"]
+    ]
+  }
+]

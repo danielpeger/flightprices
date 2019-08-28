@@ -1,15 +1,6 @@
 const fs = require("fs");
-const { permute } = require("./permute");
-const { cartesian } = require("./cartesian");
+const { permute, cartesian, arraysMatch } = require("./utils");
 const { getCheapestFlight } = require("./getCheapestFlight");
-
-const arraysMatch = function(arr1, arr2) {
-  if (arr1.length !== arr2.length) return false;
-  for (var i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) return false;
-  }
-  return true;
-};
 
 const Europe = ["Sweden", "Georgia", "Italy", "Ponta Delgada"];
 const NorthAmerica = ["Montreal", "Portland", "Los Angeles"];

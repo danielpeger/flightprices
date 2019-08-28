@@ -1,0 +1,34 @@
+[
+  {
+    "route": ["Budapest", "Portland", "Thailand", "Budapest"],
+    "price": 463883
+  },
+  {
+    "route": ["Budapest", "Montreal", "Thailand", "Budapest"],
+    "price": 432919
+  },
+  {
+    "route": ["Budapest", "Thailand", "Montreal", "Budapest"],
+    "price": 433253
+  },
+  {
+    "route": ["Budapest", "Indonesia", "Montreal", "Budapest"],
+    "price": 413596
+  },
+  {
+    "route": ["Budapest", "Indonesia", "Portland", "Budapest"],
+    "price": 482884
+  },
+  {
+    "route": ["Budapest", "Portland", "Indonesia", "Budapest"],
+    "price": 453221
+  },
+  {
+    "route": ["Budapest", "Thailand", "Portland", "Budapest"],
+    "price": 394664
+  },
+  {
+    "route": ["Budapest", "Montreal", "Indonesia", "Budapest"],
+    "price": 452556
+  }
+]
